@@ -6,5 +6,6 @@
   ],
   "keybinds": {
     "command_list": "ctrl+/"
-  }
+  },
+  "theme": "palenight"
 }
