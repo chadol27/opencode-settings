@@ -5,7 +5,7 @@
     "@slkiser/opencode-quota@latest"
   ],
   "keybinds": {
-    "command_list": "ctrl+/"
+    "command_list": "<leader>p"
   },
   "theme": "palenight"
 }
