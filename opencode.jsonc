@@ -18,7 +18,9 @@
       "*": "ask",
       "git*": "allow",
       "git*push*": "ask",
-      "zsh -n *": "allow"
+      "zsh -n *": "allow",
+      "node --check *": "allow",
+      "clasp push*": "allow"
     },
     "task": "ask",
     "external_directory": "ask",
