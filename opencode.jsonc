@@ -30,5 +30,6 @@
     // Detected openai authentication; opencode-quota added this global provider declaration.
     "openai": {}
   },
-  "agent": {}
+  "agent": {},
+  "autoupdate": true
 }
