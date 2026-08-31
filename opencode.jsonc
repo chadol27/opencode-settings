@@ -13,16 +13,36 @@
       "*.env.*": "deny",
       "*.env.example": "allow"
     },
-    "web*": "ask",
     "bash": {
       "*": "ask",
-      "git*": "allow",
-      "git*push*": "ask",
-      "zsh -n *": "allow",
+
+      "pwd": "allow",
+      "ls": "allow",
+      "ls *": "allow",
+
+      "git status": "allow",
+      "git status *": "allow",
+      "git diff": "allow",
+      "git diff *": "allow",
+      "git log": "allow",
+      "git log *": "allow",
+      "git show": "allow",
+      "git show *": "allow",
+      "git ls-files": "allow",
+      "git ls-files *": "allow",
+      "git rev-parse": "allow",
+      "git rev-parse *": "allow",
+      "git branch --show-current": "allow",
+      "git remote -v": "allow",
+      "git remote get-url *": "allow",
+
       "node --check *": "allow",
-      "clasp push*": "allow"
+      "bash -n *": "allow",
+      "zsh -n *": "allow",
+
+      "npm run check": "allow",
+      "pnpm run check": "allow"
     },
-    "task": "ask",
     "external_directory": "ask",
     "doom_loop": "ask"
   },
