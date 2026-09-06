@@ -43,7 +43,10 @@
       "npm run check": "allow",
       "pnpm run check": "allow"
     },
-    "external_directory": "ask",
+    "external_directory": {
+      "/**": "ask",
+      "/tmp/**": "allow"
+    },
     "doom_loop": "ask"
   },
   "provider": {
