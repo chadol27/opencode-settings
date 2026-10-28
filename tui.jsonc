@@ -6,6 +6,5 @@
   ],
   "keybinds": {
     "command_list": "<leader>p"
-  },
-  "theme": "palenight"
+  }
 }
